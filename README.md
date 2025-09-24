@@ -48,7 +48,7 @@ Projekt_3/
 1. **test_cookie_banner_accept**
 
 - Otevře homepage
-- Robustně přijme/uzavře cookie banner (CZ/EN texty, fallback na „Uložit předvolby“ nebo „Odmítnout“)
+- Robustně přijme/uzavře cookie banner 
 - Ověří, že banner zmizel (nebo aspoň nemá třídu cmplz-show)
 
 2. **test_kontakty_form_na_strance**
