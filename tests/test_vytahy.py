@@ -1,4 +1,5 @@
 import re
+
 from playwright.sync_api import Page, expect
 
 BASE_URL = "https://www.vytahyelex.cz/"

@@ -1,6 +1,7 @@
 import re
+
 import pytest
-from playwright.sync_api import expect, Page
+from playwright.sync_api import Page, expect
 
 
 @pytest.fixture(params=["desktop", "iphone 13"], ids=["desktop", "iphone13"])
