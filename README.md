@@ -121,8 +121,6 @@ Projekt_3/
     playwright install
     ```
 
-💡Spuštění testů:
-
 # 🧪 Spouštění testů – příklady 
 
 - Všechny testy (3 prohlížeče x 2 profily; mobil ve Firefoxu se přeskočí):
@@ -130,18 +128,18 @@ Projekt_3/
     pytest
     ```
 
-Konfigurace (pytest.ini)
-Ukázkový obsah: 
-```
-[pytest]
-addopts = --headed --browser chromium --browser firefox --browser webkit
-testpaths = tests
-```
+- Konfigurace (pytest.ini)
+    Ukázkový obsah: 
+    ```
+    [pytest]
+    addopts = --headed --browser chromium --browser firefox --browser webkit
+    testpaths = tests
+    ```
 
-CLI parametry mají přednost, takže když chceš třeba jen Chromium:
-```bash
-pytest -o addopts="" --headed --browser=chromium
-```
+- CLI parametry mají přednost, takže když chceš třeba jen Chromium:
+    ```bash
+    pytest -o addopts="" --headed --browser=chromium
+    ```
 
 - Jen konkrétní test
     ```bash
