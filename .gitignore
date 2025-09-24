@@ -1,5 +1,40 @@
+# --- Python cache ---
 __pycache__/
-*.pyc
+*.py[cod]
+
+# --- Virtuální prostředí ---
 .venv/
-.env
+venv/
+env/
+venv_*/
+env_*/
+venv_Projekt_3/
+
+# --- Pytest / nástroje ---
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.cache/
+
+# --- Coverage ---
+.coverage*
+coverage.xml
+htmlcov/
+
+# --- Playwright artefakty (reporty, trasy, výstupy) ---
+test-results/
+playwright-report/
+blob-report/
+**/trace.zip
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+
+# --- OS drobnosti ---
 .DS_Store
+Thumbs.db
+
+# --- Env soubory ---
+.env
+.env.*
